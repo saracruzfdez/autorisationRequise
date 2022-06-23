@@ -30,16 +30,23 @@ header h1 {
 }
 
 span {
-    color: rgb(183, 0, 82);
+    color: rgb(197, 0, 79);
 }
 
-.acces {
+/*FORMULAIRE*/
+.formulaire {
     color: rgb(255, 255, 255);
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: center;
-    justify-content: space-around;
-    padding: 100px 550px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 100px;
+    margin: 20px auto;
+}
+
+.acces{
+    text-align: center;
+}
+
+.accesItem{
+    margin: 10px auto 0px auto;
 }
