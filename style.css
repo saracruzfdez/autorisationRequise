@@ -1,0 +1,45 @@
+/*STYLES GENERAUX*/
+* {
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+body {
+    background: #05017d;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+/*HEADER*/
+header {
+    padding: 100px 0px;
+    background: url("https://images.pexels.com/photos/8846632/pexels-photo-8846632.jpeg?auto=compress&cs=tinysrgb&w=800");
+    height: 500px;
+}
+
+header h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+span {
+    color: rgb(183, 0, 82);
+}
+
+.input {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 100px 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
